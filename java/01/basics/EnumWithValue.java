@@ -1,3 +1,5 @@
+package basics;
+
 enum Month {
     JAN(31), FEB(28), MARCH(31), APR(30);
 

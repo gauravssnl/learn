@@ -1,3 +1,5 @@
+package basics;
+
 public class VarArgs {
     public static void readVariableIntList(int... numbers) {
         for (var number : numbers) {

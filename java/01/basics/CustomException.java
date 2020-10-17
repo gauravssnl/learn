@@ -1,3 +1,5 @@
+package basics;
+
 public class CustomException {
     public static void divide(int x, int y) throws MyDivException {
         if (y == 0)

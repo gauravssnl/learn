@@ -1,3 +1,5 @@
+package basics;
+
 public class ObjectEqulaity {
     public static void main(String[] args) {
         Customer c1 = new Customer(12, "John");

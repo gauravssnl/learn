@@ -1,3 +1,5 @@
+package basics;
+
 public class UserNameValidation {
     public static boolean isUserNameValid(String userName) {
         int size = userName.length();

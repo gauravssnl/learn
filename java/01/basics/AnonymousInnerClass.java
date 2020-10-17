@@ -1,10 +1,12 @@
+package basics;
+
 interface Sample {
     void display();
 }
 
 public class AnonymousInnerClass {
     Sample sample1 = new Sample() {
-        
+
         @Override
         public void display() {
             // TODO Auto-generated method stub
@@ -20,7 +22,7 @@ public class AnonymousInnerClass {
             // TODO Auto-generated method stub
             System.out.println("AnonymousInnerClass.sample2.new Sample() {...}.display()");
         }
-        
+
     };
 
     public static void main(final String[] args) {
